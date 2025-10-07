@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+    
+<libro>
+    <titulo>El Quijote</titulo>
+    <autor>Cervantes</autor>
+    <pagina>350</pagina>
+</libro>
+
+<libro>
+    <titulo>Pepa pig vuelta al cole</titulo>
+    <autor>Pepa</autor>
+    <pagina>75</pagina>
+</libro>
+
+</biblioteca>

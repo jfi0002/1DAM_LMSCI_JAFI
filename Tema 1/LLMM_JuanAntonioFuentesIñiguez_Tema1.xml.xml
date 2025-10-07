@@ -1,0 +1,146 @@
+<!-- Juan Antonio Fuentes Iñiguez 1º DAM-->
+<?xml version="1.0" encoding="UTF-8"?>
+<empresa> <!--Este sera el elemento raiz el cual engloba todo nuestro xml y sera empresa-->
+    <clientes>
+        <cliente DNI="75757575H">
+            <Nombre>Miguel</Nombre>
+            <Primer_Apellido>Quesada</Primer_Apellido>
+            <Fecha_de_nacimiento>20/7/03</Fecha_de_nacimiento>
+        </cliente> 
+
+        <cliente DNI="74747474J">
+            <Nombre>Antonio</Nombre>
+            <Primer_Apellido>Ortega</Primer_Apellido>
+            <Fecha_de_nacimiento>11/5/83</Fecha_de_nacimiento>
+        </cliente> 
+
+        <cliente DNI="78787878K">
+            <Nombre>Rafa</Nombre>
+            <Primer_Apellido>Muñoz</Primer_Apellido>
+            <Fecha_de_nacimiento>11/6/95</Fecha_de_nacimiento>
+        </cliente> 
+
+        <cliente DNI="85730485Y">
+            <Nombre>Juan</Nombre>
+            <Primer_Apellido>Martos</Primer_Apellido>
+            <Fecha_de_nacimiento>14/6/04</Fecha_de_nacimiento>
+        </cliente> 
+
+        <cliente DNI="42830596Y">
+            <Nombre>Jose</Nombre>
+            <Primer_Apellido>Cubo</Primer_Apellido>
+            <Fecha_de_nacimiento>23/8/00</Fecha_de_nacimiento>
+        </cliente> 
+    </clientes>
+
+    <comerciales>
+        <comercial ID="34">
+            <Nombre>Miguel</Nombre>
+            <Apellidos>López Alcala</Apellidos>
+            <Año_entrada_empresa>2010</Año_entrada_empresa>
+        </comercial>
+
+        <comercial ID="56">
+            <Nombre>Alfonso</Nombre>
+            <Apellido>Martos</Apellido>
+            <Año_entrada_empresa>2017</Año_entrada_empresa>
+        </comercial>
+
+        <comercial ID="54">
+            <Nombre>Raul</Nombre>
+            <Apellido>Perez</Apellido>
+            <Año_entrada_empresa>2020</Año_entrada_empresa>
+        </comercial>
+
+        <comercial ID="68">
+            <Nombre>Pedro</Nombre>
+            <Apellido>Gutierre</Apellido>
+            <Año_entrada_empresa>2025</Año_entrada_empresa>
+        </comercial>
+
+        <comercial ID="78">
+            <Nombre>Pablo</Nombre>
+            <Apellido>Fernandez</Apellido>
+            <Año_entrada_empresa>2003</Año_entrada_empresa>
+        </comercial>
+    </comerciales>
+    <Vehiculos>
+        <Vehiculo Numero_bastidor="7HD345KG9SN5G7CHE">
+            <Marca>Ford</Marca>
+            <Modelo>Fiesta</Modelo>
+            <Año_fabricación>2022</Año_fabricación>
+        </Vehiculo>
+
+        <Vehiculo Numero_bastidor="JGURB597NF83B8VN4">
+            <Marca>BMW</Marca>
+            <Modelo>Serie 1 118D</Modelo>
+            <Año_fabricación>2025</Año_fabricación>
+        </Vehiculo>
+
+        <Vehiculo Numero_bastidor="0KG58J7H6G5FDREYV">
+            <Marca>Citroen</Marca>
+            <Modelo>C3</Modelo>
+            <Año_fabricación>2019</Año_fabricación>
+        </Vehiculo>
+
+       <Vehiculo Numero_bastidor="NLKJGIENT94G85038">
+            <Marca>Peugeot</Marca>
+            <Modelo>206</Modelo>
+            <Año_fabricación>2023</Año_fabricación>
+        </Vehiculo>
+
+       <Vehiculo Numero_bastidor="M83N609B67NPCTEN">
+            <Marca>BMW</Marca>
+            <Modelo>x5</Modelo>
+            <Año_fabricación>2015</Año_fabricación>
+        </Vehiculo>
+
+    </Vehiculos>
+    <Sucursales_de_venta>
+
+        <Sucursal_de_venta ID="1">
+            <Nombre>Autos SL</Nombre>
+            <Ubicación>Mengibar</Ubicación>   
+        </Sucursal_de_venta> 
+
+        <Sucursal_de_venta ID="2">
+            <Nombre>Morcar</Nombre>
+            <Ubicación>Andujar</Ubicación>   
+        </Sucursal_de_venta> 
+
+        <Sucursal_de_venta ID="3">
+            <Nombre>F2</Nombre>
+            <Ubicación>Granáda</Ubicación>   
+        </Sucursal_de_venta> 
+
+        <Sucursal_de_venta ID="4">
+            <Nombre>Ocasión</Nombre>
+            <Ubicación>Motril</Ubicación>   
+        </Sucursal_de_venta>   
+
+        <Sucursal_de_venta ID="5">
+            <Nombre>SM</Nombre>
+            <Ubicación>Torre</Ubicación>   
+        </Sucursal_de_venta>   
+
+    </Sucursales_de_venta>
+    <Partes_de_venta>
+
+        <Parte_de_venta ID="1">
+            <DNI_Cliente>78787878K</DNI_Cliente>
+            <Numero_bastidor>7HD345KG9SN5G7CHE</Numero_bastidor>
+            <ID_comercial>34</ID_comercial>
+            <Metodo_de_pago>Transferencia</Metodo_de_pago>
+            <ID_Sucursal_de_venta>1</ID_Sucursal_de_venta>
+        </Parte_de_venta>
+
+        <Parte_de_venta ID="2">
+            <DNI_Cliente>74747474J</DNI_Cliente>
+            <Numero_bastidor>JGURB597NF83B8VN4</Numero_bastidor>
+            <ID_comercial>54</ID_comercial>
+            <Metodo_de_pago>Efectivo</Metodo_de_pago>
+            <ID_Sucursal_de_venta>2</ID_Sucursal_de_venta>
+        </Parte_de_venta>
+        
+    </Partes_de_venta>
+</empresa>

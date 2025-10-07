@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<empresa>
+<departamentos tipo ="marketing">
+
+    <empleado>
+        <nombre>Juan Antonio</nombre>
+        <apellidos>Fuentes Iñiguez</apellidos>
+        <dni>76543212G</dni>
+        <telefono>656565656</telefono>
+        <cargo>Encargado</cargo>
+        <sueldo>1200€</sueldo>
+    </empleado>
+
+    <empleado>
+        <nombre>Antonio</nombre>
+        <apellidos>Fraguas Acosta</apellidos>
+        <dni>89765437H</dni>
+        <telefono>987654378</telefono>
+        <cargo>Empleado</cargo>
+        <sueldo>1100€</sueldo>
+    </empleado>
+
+</departamentos>
+
+<departamentos tipo ="desarrollo">
+
+    <empleado>
+        <nombre>Pedro Antonio</nombre>
+        <apellidos>Quesada ortega</apellidos>
+        <dni>76543298H</dni>
+        <telefono>656587656</telefono>
+        <cargo>Encargado</cargo>
+        <sueldo>1200€</sueldo>
+    </empleado>
+
+    <empleado>
+        <nombre>Antonio Miguel</nombre>
+        <apellidos>Galindo Acosta</apellidos>
+        <dni>89667937T</dni>
+        <telefono>945674378</telefono>
+        <cargo>Empleado</cargo>
+        <sueldo>1100€</sueldo>
+    </empleado>
+
+</departamentos>
+
+</empresa>
