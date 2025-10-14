@@ -1,0 +1,22 @@
+body{
+    background-color:rgb(241, 230, 224); 
+    border: 70000;
+    border-style: double;
+    border-color:rgb(246, 175, 137);
+}
+.titulo{text-align: center; background-color: rgb(246, 175, 137);}
+
+.button{
+    background-color: rgb(246, 175, 137);
+    color: rgb(13, 13, 13);
+    cursor: pointer;
+    border: none;
+}
+.izquierda{
+    float: left;
+    width: 50%;
+}
+.derecha{
+    float: left;
+    width: 50%;
+}
