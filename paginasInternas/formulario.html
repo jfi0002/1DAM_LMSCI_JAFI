@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+<style>
+    body{
+    background-color:rgb(241, 230, 224); 
+}
+</style>
+</head>
+<body>
+    <h1>Formulario de Currículum</h1>
+        <fieldset>
+                <legend>Datos personales</legend>
+            Nombre: <input type="text" name="nombre"><br><br>
+            Apellidos: <input type="text" name="apellidos"><br><br>
+            Edad: <input type="number" name="edad"><br><br>
+
+            
+            Género
+            <br>
+            <input type="radio" name="casado" value="hombre">hombre
+            <input type="radio" name="casado" value="mujer">mujer
+            
+        </fieldset>
+        <fieldset>
+            <legend>Contacto</legend>
+        Correo Electrónico: <input type="text" name="correo"><br><br>
+        Código Postal: <input type="number" name="codigo"><br><br>
+        Dirección: <input type="text" name="edad"><br><br>
+        Ciudad: <select name="opciones" size="1">
+            <option value="1">Jaén</option>
+            <option value="2">Mengibar</option>
+            <option value="3">Andujar</option>
+        </select><br><br>
+        Contraseña:<input type="password" name="password" size="22" maxlength="8" minlength="1"<br>
+        </fieldset>
+        <fieldset>
+                <legend>Datos de Interés</legend>
+            Estado Civil:
+            <br>
+            <input type="radio" name="casado" value="hombre">Casado
+            <input type="radio" name="casado" value="mujer">No casado
+            <br><br>Hobbies:<br><br>
+          
+        <input type="checkbox" name="deporte"> Deporte<br>
+        <input type="checkbox" name="cine"> Cine<br>
+        <input type="checkbox" name="lectura"> Lectura<br>
+        <input type="checkbox" name="correr"> Correr<br>
+    </form>
+        </fieldset>
+        <fieldset>
+                <legend>Comentarios Adicionales</legend>
+                Escribe aqui tus comentarios:<br>
+                <textarea name="comentario" rows="10" cols="30" placeholder="Escribe tus comentarios aqui..."></textarea>
+        </fieldset>
+        <form action="proceso.php" method="post">
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Resetear">
+</body>
+</html>
