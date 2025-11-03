@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+.titulo {
+    border: 7px solid blue;
+    padding: 10px;
+    color: black;
+}
+.pregunta {
+    color: white;
+    padding: 5px;
+}
+.gris {
+    background-color: gray;
+}
+.negro {
+    background-color: black;
+}
+.cian {
+    background-color: aqua;
+}
+ul {
+    list-style-type: disc;
+}
+.correcto {
+    color: green;
+}
+.incorrecto {
+    color: red;
+}

@@ -1,0 +1,42 @@
+
+* {
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  text-align: center;
+}
+
+.miclase {
+  color: darkorange;
+  font-weight: bold;
+}
+
+#miidentificador {
+  background-color: lightyellow;
+  border: 1px solid goldenrod;
+}
+
+p a {
+  color: green;
+  
+}
+
+p > span > a {
+  color: red;
+}
+
+p + div {
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+p[lang="es"] {
+  background-color: aqua;
+}
+
+p[lang="en"] {
+  font-style: normal;
+  color: gray;
+}
