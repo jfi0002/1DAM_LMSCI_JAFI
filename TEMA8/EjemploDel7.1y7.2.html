@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing:content-box;
+            box-sizing:border-box;/*Suma todo lo que es borde, contenido, pading para que se ajuste al tamaño que le damos en el width*/
+        }
+        body{
+            background-image: url("./images.jfif");
+            background-repeat: no-repeat;/*No se repite*/
+            background-attachment: fixed;
+            background-position: center;
+            background-size: 400px 400px;
+        }
+        p{
+            border: solid 2px blue;
+            padding: 10px;
+            width: 200px;
+            /*max-width: 100px;*/   /*Maximo tamaño que puede tener en caso de que este auto ajustable*/         
+        }
+    </style>
+</head>
+<body>
+    <h1>Propiedad backfound</h1>
+    <p>El fondo es una imagen que no se repite, está fija y se coloca en el centro del body</p>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+    <style>
+        #lista1{
+            list-style-type: square ;
+            list-style-position: inside;
+        }
+        #lista2{
+            list-style-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwDCZPLevhyJaGXkv6nBa-Q0U1Wcs92dfT-A&s");
+        }
+        ul li:first-child{
+            color:blue
+        }
+        ul li:last-child{
+            color: purple;
+        }
+        ul li:nth-child(3){
+            color:red;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <b>PAISES</b>
+    <ul id="lista1">
+        <li>
+            España: Lorem Ipsum is simply dummy text of the printing and typesestting.
+
+        </li>
+        <li>Bélgica</li>
+        <li>Francia</li>
+    </ul>
+    <b>DEPORTES</b>
+    <ul id="lista2">
+        <li>Baloncesto</li>
+        <li>Fútbol</li>
+        <li>Ciclismo</li>
+        <li>Portugal</li>
+    </ul>
+</body>
+</html>
